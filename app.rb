@@ -19,18 +19,3 @@ class App < Sinatra::Base
   end
   
 end
-
-center	
-"6"
-coach	
-"1"
-point_guard	
-"2"
-power_forward	
-"5"
-shooting_guard	
-"3"
-small_forward	
-"4"
-team_name	
-"Hello"
