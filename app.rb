@@ -8,7 +8,7 @@ class App < Sinatra::Base
   
   post '/team' do
     @team = params
-    "#{@team}"
+    puts params
     erb :team
   end
   
