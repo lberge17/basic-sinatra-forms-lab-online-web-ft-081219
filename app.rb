@@ -14,6 +14,7 @@ class App < Sinatra::Base
     @point_guard = params["point_guard"]
     @coach = params["coach"]
     @center = params["center"]
+    @team = params
     
     erb :team
   end
